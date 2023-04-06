@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Time tracking dashboard</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 1rem;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+		<link rel="stylesheet" href="style.css" />
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<div class="first-card">
+					<div class="first-card-top">
+						<div class="img">
+							<img class="cameo" src="./images/image-jeremy.png" alt="" />
+						</div>
+						<div class="intro">
+							<p class="top-para">Report for</p>
+
+							<h1 class="name">Jeremy Robson</h1>
+						</div>
+					</div>
+					<div class="card-bottom-link">
+						<p class="link daily">Daily</p>
+						<p class="link weekly">Weekly</p>
+						<p class="link monthly">Monthly</p>
+					</div>
+				</div>
+				<div class="card" id="work">
+					<div class="work__text">
+						<h3 class="card__title">Work</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+
+				<div class="card" id="play">
+					<div class="play__text">
+						<h3 class="card__title">Play</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+				<div class="card" id="study">
+					<div class="study__text">
+						<h3 class="card__title">Study</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+				<div class="card" id="exercise">
+					<div class="exercise__text">
+						<h3 class="card__title">Exercise</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+				<div class="card" id="social">
+					<div class="social__text">
+						<h3 class="card__title">Social</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+				<div class="card" id="self-care">
+					<div class="selfcare__text">
+						<h3 class="card__title">Self Care</h3>
+						<span class="hour"> - hrs </span>
+						<p class="previous"></p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Louise Fagan</a>.
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

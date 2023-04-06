@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/LouFagan/time-tracking-dashboard.loufagan.github.io](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://loufagan.github.io/time-tracking-dashboard.loufagan.github.io/](https://your-live-site-url.com)
 
 ## My process
 
